@@ -10,5 +10,6 @@ namespace mapp.api.Data
         }
 
         public DbSet<Value> Values { get; set; }
+        public DbSet<Users> User{ get; set; }
     }
 }
